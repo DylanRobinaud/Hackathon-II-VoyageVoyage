@@ -1,0 +1,11 @@
+.select-Form {
+  font-size: var(--font-size-h1);
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  select {
+    width: 85%;
+    height: 2rem;
+    margin: 1rem;
+  }
+}
