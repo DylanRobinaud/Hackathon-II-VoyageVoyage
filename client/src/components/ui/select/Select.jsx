@@ -5,7 +5,7 @@ function Select({ datas, question, id, css, name }) {
     <label htmlFor={id} className={css}>
       {question}
       <select name={name} id={id}>
-        <option value="">--Veuillez choisir une option--</option>
+        <option value="">-Veuillez choisir une option-</option>
         {datas.map((data) => (
           <option value={data.name} key={data.id}>
             {data.name}
