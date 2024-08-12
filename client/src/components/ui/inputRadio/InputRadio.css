@@ -1,21 +1,11 @@
-fieldset {
-  width: 20rem;
-  margin: 2rem 1rem;
-  border: none;
+.radio {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 
-  legend {
-    margin-bottom: 0.5rem;
-  }
-
-  .radio {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-
-    label {
-      font-family: var(--font-text);
-      font-size: 1rem;
-      margin-left: 0.5rem;
-    }
+  label {
+    font-family: var(--font-text);
+    font-size: 1rem;
+    margin-left: 0.5rem;
   }
 }
