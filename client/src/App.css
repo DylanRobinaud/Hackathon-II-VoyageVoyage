@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "Kurale";
+  src: url(./assets/font/Kurale-Regular.ttf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /*Colors*/
+  --color-main: #09371a;
+  --color-text-white: #e1e1e1;
+  --color-text-black: #050505;
+  --color-background: #bcd8c1;
+  --color-background-lightGrey: #d8d8d8;
+  --color-error: #b00000;
+  --color-succes: #009728;
+  /*Borders*/
+  --border-black: 2px solid var(--color-text-black);
+  --border-white: 2px solid var(--color-text-white);
+  --border-main: 2px solid var(--color-text-main);
+  --border-error: 2px solid var(--color-error);
+  --border-succes: 2px solid var(--color-succes);
+  --border-radius-button: 1.5rem;
+  --border-radius-box: 0.5rem;
+  /*Fonts*/
+  --font-text: "Kurale";
+  --font-size-h1: 1.5rem;
+  --font-size-h2: 1rem;
+  --font-size-h3: 0.5rem;
+  --font-size-text: 0.2rem;
+}
+
+.style-title-h1 {
+  color: var(--color-text-black);
+  font-size: var(--font-size-h1);
+  font-family: var(--font-text);
+}
+
+.style-title-h2 {
+  color: var(--color-text-black);
+  font-size: var(--font-size-h2);
+  font-family: var(--font-text);
+}
+
+.style-title-h3 {
+  color: var(--color-text-black);
+  font-size: var(--font-size-h3);
+  font-family: var(--font-text);
+}
+
+.style-paragraph {
+  font-family: var(--font-text);
+  font-size: var(--font-size-text);
+  line-height: var(--line-height);
+}
