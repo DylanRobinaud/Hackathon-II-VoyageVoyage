@@ -1,5 +1,3 @@
-import PropTypes from "prop-types";
-
 import "../Button.css";
 
 function ButtonSubmit({ text, handleClick, css }) {
@@ -9,11 +7,5 @@ function ButtonSubmit({ text, handleClick, css }) {
     </button>
   );
 }
-
-ButtonSubmit.propTypes = {
-  text: PropTypes.string.isRequired,
-  handleClick: PropTypes.func.isRequired,
-  css: PropTypes.string.isRequired,
-};
 
 export default ButtonSubmit;

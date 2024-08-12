@@ -1,5 +1,3 @@
-import PropTypes from "prop-types";
-
 import "../Button.css";
 
 function ButtonComponent({ text, handleClick, css }) {
@@ -9,11 +7,5 @@ function ButtonComponent({ text, handleClick, css }) {
     </button>
   );
 }
-
-ButtonComponent.propTypes = {
-  text: PropTypes.string.isRequired,
-  handleClick: PropTypes.func.isRequired,
-  css: PropTypes.string.isRequired,
-};
 
 export default ButtonComponent;
