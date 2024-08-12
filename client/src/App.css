@@ -3,6 +3,10 @@
   src: url(./assets/font/Kurale-Regular.ttf);
 }
 
+body {
+  background-color: var(--color-background);
+}
+
 * {
   padding: 0;
   margin: 0;
