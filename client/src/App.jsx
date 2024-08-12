@@ -1,4 +1,5 @@
 import logo from "./assets/images/zarla-voyage-voyage.png";
+
 import "./App.css";
 
 function App() {

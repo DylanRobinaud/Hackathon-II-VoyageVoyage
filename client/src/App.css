@@ -31,7 +31,7 @@
   --font-size-h1: 1.5rem;
   --font-size-h2: 1rem;
   --font-size-h3: 0.5rem;
-  --font-size-text: 0.2rem;
+  --font-size-text: 1rem;
   /* Shadow */
   --shadow-thin-right: 0.2rem 0.1rem 0.2rem 0rem rgba(0, 0, 0, 0.5);
 }
