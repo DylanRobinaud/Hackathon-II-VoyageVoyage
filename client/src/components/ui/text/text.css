@@ -1,0 +1,19 @@
+.style-h1 {
+  font-size: var(--font-size-h1);
+  font-family: var(--font-text);
+}
+
+.style-h2 {
+  font-size: var(--font-size-h2);
+  font-family: var(--font-text);
+}
+
+.style-h3 {
+  font-size: var(--font-size-h3);
+  font-family: var(--font-text);
+}
+
+.style-paragraph {
+  font-family: var(--font-text);
+  font-size: var(--font-size-text);
+}
