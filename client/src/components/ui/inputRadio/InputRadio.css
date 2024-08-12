@@ -1,0 +1,11 @@
+.radio {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+
+  label {
+    font-family: var(--font-text);
+    font-size: 1rem;
+    margin-left: 0.5rem;
+  }
+}
