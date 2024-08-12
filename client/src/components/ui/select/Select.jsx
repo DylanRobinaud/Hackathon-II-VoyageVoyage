@@ -2,7 +2,7 @@ import "./Select.css";
 
 function Select({ datas, question, id, css, name }) {
   return (
-    <label htmlFor={id} className={css}>
+    <label htmlFor={id} className={`select-form ${css}`}>
       {question}
       <select name={name} id={id}>
         <option value="">-Veuillez choisir une option-</option>
