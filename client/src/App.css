@@ -21,7 +21,7 @@
   /*Borders*/
   --border-black: 2px solid var(--color-text-black);
   --border-white: 2px solid var(--color-text-white);
-  --border-main: 2px solid var(--color-text-main);
+  --border-main: 2px solid var(--color-main);
   --border-error: 2px solid var(--color-error);
   --border-succes: 2px solid var(--color-succes);
   --border-radius-button: 1.5rem;
@@ -32,6 +32,8 @@
   --font-size-h2: 1rem;
   --font-size-h3: 0.5rem;
   --font-size-text: 0.2rem;
+  /* Shadow */
+  --shadow-thin-right: 0.2rem 0.1rem 0.2rem 0rem rgba(0, 0, 0, 0.5);
 }
 
 .style-title-h1 {
