@@ -2,9 +2,9 @@ import PropTypes from "prop-types";
 
 import "../Button.css";
 
-function ButtonSubmit({ text, handleClick }) {
+function ButtonSubmit({ text, handleClick, css }) {
   return (
-    <button type="submit" onClick={handleClick}>
+    <button type="submit" className={`btn ${css}`} onClick={handleClick}>
       {text}
     </button>
   );
@@ -13,6 +13,7 @@ function ButtonSubmit({ text, handleClick }) {
 ButtonSubmit.propTypes = {
   text: PropTypes.string.isRequired,
   handleClick: PropTypes.func.isRequired,
+  css: PropTypes.string.isRequired,
 };
 
 export default ButtonSubmit;

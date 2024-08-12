@@ -2,9 +2,9 @@ import PropTypes from "prop-types";
 
 import "../Button.css";
 
-function ButtonComponent({ text, handleClick }) {
+function ButtonComponent({ text, handleClick, css }) {
   return (
-    <button type="button" onClick={handleClick}>
+    <button type="button" className={`btn ${css}`} onClick={handleClick}>
       {text}
     </button>
   );
@@ -13,6 +13,7 @@ function ButtonComponent({ text, handleClick }) {
 ButtonComponent.propTypes = {
   text: PropTypes.string.isRequired,
   handleClick: PropTypes.func.isRequired,
+  css: PropTypes.string.isRequired,
 };
 
 export default ButtonComponent;
