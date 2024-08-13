@@ -21,7 +21,7 @@ function FormPage1() {
   } = useHackaton();
 
   return (
-    <>
+    <main className="main-form">
       <img src={logo} alt="logo du site" />
       <form>
         <ParagraphComponent text="Quand souhaitez vous partir ?" />
@@ -76,7 +76,7 @@ function FormPage1() {
           Passez a la suite
         </Link>
       </div>
-    </>
+    </main>
   );
 }
 
