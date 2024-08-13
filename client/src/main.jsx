@@ -4,6 +4,7 @@ import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import App from "./App";
+import Acceuil from "./pages/acceuil/Acceuil";
 
 const router = createBrowserRouter([
   {
@@ -12,7 +13,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/acceuil/",
-    element: <App />,
+    element: <Acceuil />,
   },
   {
     path: "/ville-details/",
