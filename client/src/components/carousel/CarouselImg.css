@@ -1,0 +1,12 @@
+.carousel-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .carousel-img {
+    max-width: 90%;
+    height: 19rem;
+    object-fit: cover;
+    border-radius: var(--border-radius-img);
+  }
+}

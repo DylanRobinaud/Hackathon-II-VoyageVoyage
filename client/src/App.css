@@ -31,6 +31,7 @@ body {
   --border-succes: 2px solid var(--color-succes);
   --border-radius-button: 1.5rem;
   --border-radius-box: 0.5rem;
+  --border-radius-img: 0.5rem;
   /*Fonts*/
   --font-text: "Kurale";
   --font-size-h1: 2.5rem;
