@@ -10,6 +10,10 @@ export function HackatonProvider({ children }) {
   const [activity, setActivity] = useState("");
   const [climat, setClimat] = useState("");
   const [continent, setContinent] = useState("");
+  const [journeyRange, setJourneyRange] = useState([0, 1000]);
+  const [housingRange, setHousingRange] = useState([0, 500]);
+  const [entertainementRange, setEntertainementRange] = useState([0, 100]);
+
 
   const value = useMemo(
     () => ({
@@ -27,6 +31,12 @@ export function HackatonProvider({ children }) {
       setClimat,
       continent,
       setContinent,
+      journeyRange,
+      setJourneyRange,
+      housingRange,
+      setHousingRange,
+      entertainementRange,
+      setEntertainementRange,
     }),
     [
       startDate,
@@ -39,6 +49,9 @@ export function HackatonProvider({ children }) {
       setClimat,
       continent,
       setContinent,
+      journeyRange,
+      housingRange,
+      entertainementRange,
     ]
   );
 

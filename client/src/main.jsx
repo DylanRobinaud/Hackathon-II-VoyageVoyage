@@ -5,10 +5,12 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { HackatonProvider } from "./context/HackathonContext";
 
 import App from "./App";
-import FormPage1 from "./pages/FormPage/FormPage1";
-import FormPage2 from "./pages/FormPage/FormPage2";
+import FormPage1 from "./pages/FormPage/partie1/FormPage1";
+import FormPage2 from "./pages/FormPage/partie2/FormPage2";
 import Acceuil from "./pages/acceuil/Acceuil";
 import FormPage3 from "./pages/FormPage/FormPage3";
+import DetailCity from "./pages/detailCity/DetailCity";
+import ResultatPage from "./pages/FormPage/resultat/ResultatPage";
 
 const router = createBrowserRouter([
   {
@@ -24,7 +26,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: ":id",
-        element: <App />,
+        element: <DetailCity />,
       },
     ],
   },
@@ -45,7 +47,7 @@ const router = createBrowserRouter([
       },
       {
         path: "resultat",
-        element: <App />,
+        element: <ResultatPage />,
       },
     ],
   },
