@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import Header from "../../components/header/Header";
 import CarouselImg from "../../components/carousel/CarouselImg";
 import H3Component from "../../components/ui/text/H3component";
-import ButtonComponent from "../../components/ui/button/buttonComponent/ButtonComponent";
 import SearchSection from "../../components/searchSection/SearchSection";
 
 import "./Acceuil.css";
