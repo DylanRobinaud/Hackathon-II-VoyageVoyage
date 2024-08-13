@@ -10,7 +10,7 @@
     border: var(--border-black);
     border-radius: var(--border-radius-box);
     height: 1.8rem;
-    max-width: 10rem;
+    width: 10rem;
     padding: 0.2rem;
     font-family: inherit;
   }
