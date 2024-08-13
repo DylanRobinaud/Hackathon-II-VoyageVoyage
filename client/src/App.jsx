@@ -1,12 +1,11 @@
 import logo from "./assets/images/zarla-voyage-voyage.png";
-
+import Card from "./components/card/Card";
 import "./App.css";
 
 function App() {
   return (
     <main>
-      <h1>Voyage Voyage</h1>
-      <img src={logo} alt="logo" />
+      <Card town="New York" subtitle="Etats Unis" photoUrl={logo} />
     </main>
   );
 }
