@@ -29,7 +29,7 @@
   animation: title-right 3s ease-out 1 forwards;
 }
 
-.link-acceuil {
+.link-welcome {
   text-align: center;
   margin: 5rem;
   animation: link-down 3s ease-out 2s 1 both;
@@ -38,7 +38,7 @@
   }
 }
 
-.link-acceuil a:hover {
+.link-welcome a:hover {
   box-shadow:
     0 0 10px rgba(255, 255, 255, 0.8),
     0 0 20px rgba(255, 255, 255, 0.6),
@@ -46,7 +46,7 @@
     0 0 40px rgba(255, 255, 255, 0.2); /* Effet brillant */
 }
 
-.link-acceuil a:active {
+.link-welcome a:active {
   transform: scale(0.95);
   text-shadow:
     0 0 5px rgba(255, 255, 255, 0.5),

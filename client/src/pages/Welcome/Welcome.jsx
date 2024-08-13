@@ -15,7 +15,7 @@ function Welcome() {
         <img className="text-left" src={Voyage} alt="titre gauche" />
         <img className="text-right" src={Voyage} alt="titre droite" />
       </div>
-      <div className="link-acceuil">
+      <div className="link-welcome">
         <Link to="/acceuil" className="btn">
           Parcourir le site
         </Link>
