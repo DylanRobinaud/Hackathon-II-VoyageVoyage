@@ -1,5 +1,5 @@
-import { useState } from "react";
 import { Link } from "react-router-dom";
+import { useHackaton } from "../../../context/HackathonContext";
 
 import Slider from "../../../components/ui/slider/Slider";
 
@@ -9,9 +9,14 @@ import "./FormPage2.css";
 import ParagraphComponent from "../../../components/ui/text/ParagraphComponent";
 
 function FormPage2() {
-  const [journeyRange, setJourneyRange] = useState([0, 1000]);
-  const [housingRange, setHousingRange] = useState([0, 500]);
-  const [entertainementRange, setEntertainementRange] = useState([0, 100]);
+  const {
+    journeyRange,
+    setJourneyRange,
+    housingRange,
+    setHousingRange,
+    entertainementRange,
+    setEntertainementRange,
+  } = useHackaton();
 
   return (
     <main className="main-form2">
