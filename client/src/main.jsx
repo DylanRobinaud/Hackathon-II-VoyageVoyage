@@ -8,6 +8,7 @@ import App from "./App";
 import FormPage1 from "./pages/FormPage/partie1/FormPage1";
 import FormPage2 from "./pages/FormPage/partie2/FormPage2";
 import Acceuil from "./pages/acceuil/Acceuil";
+import DetailCity from "./pages/detailCity/DetailCity";
 import FormPage3 from "./pages/FormPage/partie3/FormPage3";
 
 const router = createBrowserRouter([
@@ -24,7 +25,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: ":id",
-        element: <App />,
+        element: <DetailCity />,
       },
     ],
   },

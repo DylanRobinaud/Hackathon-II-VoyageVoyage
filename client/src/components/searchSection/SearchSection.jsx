@@ -44,6 +44,7 @@ function SearchSection() {
               town={item.city_name}
               subtitle={item.country_name}
               photoUrl={item.image_url}
+              cityId={item.city_id - 1}
               key={item.city_id}
             />
           ))

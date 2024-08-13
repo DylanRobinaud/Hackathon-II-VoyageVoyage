@@ -1,0 +1,26 @@
+.main-detail-city {
+  .div-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+
+    .section-description {
+      background-color: var(--color-background-lightGrey);
+      width: 90%;
+      padding: 0.5rem;
+      border-radius: var(--border-radius-box);
+    }
+  }
+  .section-detail-city {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .article-detail-city {
+      width: 95%;
+    }
+  }
+}
