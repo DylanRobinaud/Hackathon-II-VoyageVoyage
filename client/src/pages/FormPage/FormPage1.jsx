@@ -73,7 +73,7 @@ function FormPage1() {
       </form>
       <div className="link-form">
         <Link to="/questionnaire/partie2" className="btn ">
-          Passez a la suite
+          Passez à la suite
         </Link>
       </div>
     </main>
