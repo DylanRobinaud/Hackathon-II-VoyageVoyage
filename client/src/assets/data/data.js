@@ -16,6 +16,10 @@ const data = [
       "Balade dans le Quartier Latin",
       "Shopping aux Champs-Élysées",
     ],
+    coordinates: {
+      latitude: 48.8566,
+      longitude: 2.3522,
+    },
   },
   {
     city_id: 2,
@@ -34,6 +38,10 @@ const data = [
       "Tour de l'Empire State Building",
       "Visite du Metropolitan Museum of Art",
     ],
+    coordinates: {
+      latitude: 40.7128,
+      longitude: -74.006,
+    },
   },
   {
     city_id: 3,
@@ -52,6 +60,10 @@ const data = [
       "Excursion au Mont Fuji",
       "Visite du Palais Impérial",
     ],
+    coordinates: {
+      latitude: 35.6895,
+      longitude: 139.6917,
+    },
   },
   {
     city_id: 4,
@@ -70,6 +82,10 @@ const data = [
       "Montée au Pain de Sucre",
       "Exploration du Jardin botanique",
     ],
+    coordinates: {
+      latitude: -22.9068,
+      longitude: -43.1729,
+    },
   },
   {
     city_id: 5,
@@ -88,6 +104,10 @@ const data = [
       "Exploration du Sydney Harbour Bridge",
       "Randonnée dans les Blue Mountains",
     ],
+    coordinates: {
+      latitude: -33.8688,
+      longitude: 151.2093,
+    },
   },
 ];
 
