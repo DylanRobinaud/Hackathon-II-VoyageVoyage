@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
-import { useHackaton } from "../../context/HackathonContext";
+import { useHackaton } from "../../../context/HackathonContext";
 
-import logo from "../../assets/images/zarla-voyage-voyage.png";
+import logo from "../../../assets/images/zarla-voyage-voyage.png";
 import "./FormPage.css";
-import "../../components/ui/button/Button.css";
+import "../../../components/ui/button/Button.css";
 
-import Input from "../../components/ui/input/Input";
-import ParagraphComponent from "../../components/ui/text/ParagraphComponent";
+import Input from "../../../components/ui/input/Input";
+import ParagraphComponent from "../../../components/ui/text/ParagraphComponent";
 
 function FormPage1() {
   const {
@@ -21,7 +21,7 @@ function FormPage1() {
   } = useHackaton();
 
   return (
-    <main className="main-form">
+    <main className="main-form1">
       <img src={logo} alt="logo du site" />
       <form>
         <ParagraphComponent text="Quand souhaitez vous partir ?" />
@@ -73,7 +73,7 @@ function FormPage1() {
       </form>
       <div className="link">
         <Link to="/questionnaire/partie2" className="btn link">
-          Passez a la suite
+          Passez à la suite
         </Link>
       </div>
     </main>
