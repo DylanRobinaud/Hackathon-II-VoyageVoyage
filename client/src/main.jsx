@@ -7,6 +7,7 @@ import { HackatonProvider } from "./context/HackathonContext";
 import App from "./App";
 import FormPage1 from "./pages/FormPage/FormPage1";
 import FormPage2 from "./pages/FormPage/FormPage2";
+import Acceuil from "./pages/acceuil/Acceuil";
 
 const router = createBrowserRouter([
   {
@@ -15,7 +16,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/acceuil/",
-    element: <App />,
+    element: <Acceuil />,
   },
   {
     path: "/ville-details/",
