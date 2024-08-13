@@ -1,0 +1,8 @@
+.barre-recherche {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  .input-field {
+    width: 15rem;
+  }
+}

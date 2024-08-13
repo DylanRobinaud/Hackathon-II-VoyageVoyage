@@ -9,11 +9,15 @@ const handleClick = (e) => {
   e.preventDefault();
 };
 
+const handleSearch = (e) => {
+  e.preventDefault();
+};
+
 function SearchSection() {
   const [recherche, setRecherche] = useState("");
 
   return (
-    <form>
+    <form className="barre-recherche" onSubmit={handleSearch}>
       <Input
         type="text"
         id="search"
