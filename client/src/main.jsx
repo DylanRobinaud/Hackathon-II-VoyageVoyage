@@ -8,6 +8,7 @@ import App from "./App";
 import FormPage1 from "./pages/FormPage/FormPage1";
 import FormPage2 from "./pages/FormPage/FormPage2";
 import Acceuil from "./pages/acceuil/Acceuil";
+import FormPage3 from "./pages/FormPage/FormPage3";
 
 const router = createBrowserRouter([
   {
@@ -40,7 +41,7 @@ const router = createBrowserRouter([
       },
       {
         path: "partie3",
-        element: <App />,
+        element: <FormPage3 />,
       },
       {
         path: "resultat",
