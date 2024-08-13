@@ -18,12 +18,12 @@
 .slider-bar {
   top: 0;
   bottom: 0;
-  background: var(--color-text-white);
+  background-color: var(--color-text-white);
   border-radius: 1rem;
 }
 
 .slider-bar-1 {
-  background: var(--color-main);
+  background-color: var(--color-main);
 }
 
 .dots-value {

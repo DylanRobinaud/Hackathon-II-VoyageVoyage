@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Header from "../../components/header/Header";
 import CarouselImg from "../../components/carousel/CarouselImg";
 import H3Component from "../../components/ui/text/H3component";
@@ -17,8 +18,10 @@ function Acceuil() {
         <H3Component subtitle3="Découvrez des villes :" />
         <CarouselImg />
       </section>
-      <div className="btn-acceuil section-acceuil">
-        <ButtonComponent text="Trouver ma destination idéal" css="" />
+      <div className="link-acceuil section-acceuil">
+        <Link to="/questionnaire/partie1" className="btn">
+          Trouver ma destination idéal
+        </Link>
       </div>
     </main>
   );

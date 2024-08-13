@@ -1,0 +1,28 @@
+.main-form2 {
+  .upper-logo {
+    padding-top: 1rem;
+    width: 20%;
+    display: block;
+    margin: auto;
+  }
+  form {
+    p {
+      text-align: center;
+      margin: 3rem 0;
+    }
+    .form-element {
+      margin: 3rem 0;
+      label {
+        margin: 0 0.8rem;
+      }
+      .horizontal-slider {
+        margin: auto;
+        margin-top: 1.3rem;
+      }
+    }
+  }
+  .btn {
+    text-decoration: none;
+    margin: 10rem 7.5rem;
+  }
+}
