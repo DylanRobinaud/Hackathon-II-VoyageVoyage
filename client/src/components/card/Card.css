@@ -4,6 +4,8 @@
   align-items: center;
   width: 100%;
   border-radius: var(--border-radius-box);
+  text-decoration: none;
+  color: var(--color-text-black);
 
   .article-card {
     display: flex;
@@ -35,4 +37,10 @@
     max-width: 15%;
     height: auto;
   }
+}
+
+.article-card:hover {
+  box-shadow: var(--shadow-thin-right);
+  -webkit-box-shadow: var(--shadow-thin-right);
+  -moz-box-shadow: var(--shadow-thin-right);
 }

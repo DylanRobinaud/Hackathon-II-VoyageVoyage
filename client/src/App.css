@@ -17,6 +17,7 @@ body {
 :root {
   /*Colors*/
   --color-main: #09371a;
+  --color-second: #0d5628;
   --color-text-white: #e1e1e1;
   --color-text-black: #050505;
   --color-background: #bcd8c1;
@@ -39,5 +40,6 @@ body {
   --font-size-h3: 1.5rem;
   --font-size-text: 1rem;
   /* Shadow */
-  --shadow-thin-right: 0.2rem 0.1rem 0.2rem 0rem rgba(0, 0, 0, 0.5);
+  --shadow-thin-right: 0.2rem 0.1rem 0.2rem 0rem var(--color-main);
+  --shadow-thin-right2: 0.2rem 0.1rem 0.2rem 0rem var(--color-second);
 }
