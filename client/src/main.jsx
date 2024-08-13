@@ -10,6 +10,41 @@ const router = createBrowserRouter([
     path: "/",
     element: <App />,
   },
+  {
+    path: "/acceuil/",
+    element: <App />,
+  },
+  {
+    path: "/ville-details/",
+    children: [
+      {
+        path: ":id",
+        element: <App />,
+      },
+    ],
+  },
+  {
+    path: "/questionnaire/",
+    element: <App />,
+    children: [
+      {
+        path: "partie1",
+        element: <App />,
+      },
+      {
+        path: "partie2",
+        element: <App />,
+      },
+      {
+        path: "partie3",
+        element: <App />,
+      },
+      {
+        path: "resultat",
+        element: <App />,
+      },
+    ],
+  },
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
