@@ -40,7 +40,7 @@ const data = [
     city_name: "Tokyo",
     country_name: "Japon",
     continent_name: "Asie",
-    climate_type: "Modéré",
+    climate_type: "Froid",
     description:
       "Capitale moderne du Japon, un mélange de tradition et d'innovation.",
     image_url:
