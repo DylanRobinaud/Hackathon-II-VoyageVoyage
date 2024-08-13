@@ -2,8 +2,11 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { HackatonProvider } from "./context/HackathonContext";
 
 import App from "./App";
+import FormPage1 from "./pages/FormPage/FormPage1";
+import FormPage2 from "./pages/FormPage/FormPage2";
 import Acceuil from "./pages/acceuil/Acceuil";
 
 const router = createBrowserRouter([
@@ -26,15 +29,14 @@ const router = createBrowserRouter([
   },
   {
     path: "/questionnaire/",
-    element: <App />,
     children: [
       {
         path: "partie1",
-        element: <App />,
+        element: <FormPage1 />,
       },
       {
         path: "partie2",
-        element: <App />,
+        element: <FormPage2 />,
       },
       {
         path: "partie3",
@@ -52,6 +54,8 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <HackatonProvider>
+      <RouterProvider router={router} />
+    </HackatonProvider>
   </React.StrictMode>
 );
