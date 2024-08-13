@@ -1,0 +1,26 @@
+.main-form {
+  font-family: var(--font-text);
+  .select-form {
+    font-size: var(--font-size-text);
+  }
+  form div {
+    margin: 0;
+  }
+
+  form div input {
+    width: 1rem;
+  }
+  .style-paragraph {
+    margin: 1rem 1.5rem;
+    text-align: start;
+  }
+  .checkbox {
+    margin: 0;
+  }
+  .radio {
+    margin: 0;
+  }
+  .style-h3 {
+    margin-left: 1rem;
+  }
+}
