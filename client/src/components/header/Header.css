@@ -1,0 +1,16 @@
+header {
+  .logo {
+    width: 17%;
+    position: absolute;
+    padding-top: 0.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .header {
+    position: absolute;
+    top: 29%;
+    color: var(--color-text-white);
+    width: 100%;
+    text-align: center;
+  }
+}
