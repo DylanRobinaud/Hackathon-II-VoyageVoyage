@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import data from "../../assets/data/data";
@@ -15,14 +16,18 @@ function CarouselImg() {
   return (
     <Carousel responsive={responsive}>
       {data.map((dataCity) => (
-        <section key={dataCity.city_id} className="carousel-section">
+        <Link
+          to={`/ville-details/${dataCity.city_id - 1}`}
+          key={dataCity.city_id}
+          className="carousel-section"
+        >
           <img
             className="carousel-img"
             src={dataCity.image_url}
             alt={dataCity.city_name}
           />
           <ParagraphComponent text={dataCity.city_name} />
-        </section>
+        </Link>
       ))}
     </Carousel>
   );
