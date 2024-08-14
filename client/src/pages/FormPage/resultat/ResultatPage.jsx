@@ -1,8 +1,5 @@
 import { Link } from "react-router-dom";
-
 import ResultCard from "../../../components/resultCard/Resultcard";
-import "./ResultatPage.css";
-
 import logo from "../../../assets/images/zarla-voyage-voyage.png";
 import "./ResultatPage.css";
 
