@@ -1,0 +1,11 @@
+.upper-logo {
+  padding-top: 1rem;
+  width: 20%;
+  display: block;
+  margin: auto;
+}
+.title-result {
+  font-size: var(--font-size-h1);
+  margin: 0.6rem 0.2rem;
+  text-align: center;
+}

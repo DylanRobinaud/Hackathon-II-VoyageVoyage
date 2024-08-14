@@ -1,4 +1,6 @@
 .carousel-section {
+  text-decoration: none;
+  color: inherit;
   display: flex;
   flex-direction: column;
   justify-content: center;
