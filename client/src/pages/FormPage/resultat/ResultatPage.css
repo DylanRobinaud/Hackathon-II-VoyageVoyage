@@ -1,3 +1,9 @@
+.container-result {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
 .upper-logo {
   padding-top: 1rem;
   width: 20%;
