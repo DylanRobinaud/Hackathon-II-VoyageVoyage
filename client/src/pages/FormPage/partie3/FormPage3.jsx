@@ -61,7 +61,9 @@ function FormPage3() {
 
   return (
     <main className="main-form">
-      <img src={logo} alt="logo du site" />
+      <Link to="/acceuil">
+        <img src={logo} alt="logo du site" />
+      </Link>
       <form className="form-3">
         <H3Component subtitle3="Quelles sont t'es envies ?" />
         <Select
