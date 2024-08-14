@@ -1,10 +1,13 @@
 import ResultCard from "../../../components/resultCard/Resultcard";
+import "./ResultatPage.css";
 
 function Resultat() {
   return (
     <>
       <h1>Notre résultat après recherche</h1>
-      <ResultCard />
+      <section className="container-result">
+        <ResultCard />
+      </section>
     </>
   );
 }

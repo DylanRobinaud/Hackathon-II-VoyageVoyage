@@ -1,0 +1,17 @@
+.article-result {
+  background-color: var(--color-background-lightGrey);
+  width: 90%;
+  border-radius: var(--border-radius-box);
+
+  .img-result {
+    width: 100%;
+    object-fit: cover;
+    border-radius: var(--border-radius-box);
+  }
+  .div-result {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0.5rem;
+    gap: 1rem;
+  }
+}
