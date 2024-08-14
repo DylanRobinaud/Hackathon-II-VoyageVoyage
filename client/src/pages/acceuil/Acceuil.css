@@ -1,5 +1,8 @@
 .section-acceuil {
   margin: 1.5rem 0;
+  h3 {
+    margin-left: 1.5rem;
+  }
 }
 .link-acceuil {
   text-align: center;

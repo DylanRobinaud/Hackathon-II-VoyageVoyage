@@ -1,0 +1,42 @@
+.main-form3 {
+  font-family: var(--font-text);
+  .upper-logo {
+    padding-top: 1rem;
+    width: 20%;
+    display: block;
+    margin: auto;
+  }
+  .select-form {
+    font-size: var(--font-size-text);
+  }
+  form div {
+    margin: 0rem;
+  }
+
+  form div input {
+    width: 1rem;
+  }
+  .style-paragraph {
+    margin: 1rem 1.5rem;
+    text-align: start;
+  }
+  .checkbox {
+    margin-left: 1rem;
+    div {
+      margin-top: 0.5rem;
+    }
+  }
+  .radio {
+    margin: 0;
+  }
+  .style-h3 {
+    margin-left: 1rem;
+  }
+  .link-form {
+    text-align: center;
+    margin: 3rem;
+    a {
+      text-decoration: none;
+    }
+  }
+}

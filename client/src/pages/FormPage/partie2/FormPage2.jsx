@@ -20,7 +20,9 @@ function FormPage2() {
 
   return (
     <main className="main-form2">
-      <img className="upper-logo" src={logo} alt="logo du site" />
+      <Link to="/acceuil">
+        <img className="upper-logo" src={logo} alt="logo du site" />
+      </Link>
       <form>
         <ParagraphComponent text="Quel est votre budjet moyen pour ce voyage ? " />
         <div className="form-element">

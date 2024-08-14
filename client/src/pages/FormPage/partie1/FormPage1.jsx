@@ -22,7 +22,9 @@ function FormPage1() {
 
   return (
     <main className="main-form1">
-      <img src={logo} alt="logo du site" />
+      <Link to="/acceuil">
+        <img src={logo} alt="logo du site" />
+      </Link>
       <form>
         <ParagraphComponent text="Quand souhaitez vous partir ?" />
         <div>
